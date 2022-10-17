@@ -1,9 +1,17 @@
 <!doctype html> <html lang="en">   <head>     <meta charset="utf-8">    
  <meta name="viewport" content="width=device-width, initial-scale=1">     
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap" rel="stylesheet">
+
+
  <title>All about huskies</title>
  <link rel="stylesheet" href="css/styles.css" />     
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
- rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+ rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"    
   crossorigin="anonymous">   </head>  
   <body>     <h1></h1>     
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
@@ -42,11 +50,11 @@
 
   <header class="page-header gradient">
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
+<div class="container pt-3">
+  <div class="row align-items-center justify-content-center">
+    <div class="col-md-5">
 
-      <h2>Huskies
+      <h2>Husky summary
       </h2>
       <p>Siberian huskies are intelligent, active, and loyal 
         companions. Although they can be challenging to train,
@@ -54,12 +62,48 @@
          strong animals, they should be trained early and carefully, 
          and they may not respond well to harsh training methods. 
          They are excellent guard dogs, but they are not good watchdogs.</p>
+
+         <button type="button" class="btn btn-primary btn-lg">Video </button>
+
     </div>
-    <div class="col-md-6"><img src="data:image/png;base64,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" alt="header img"></div>
+    <div class="col-md-5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUB6k8xizseJcUdJ-alnAwbt1A4lEJbkRoFQ&usqp=CAU" width="380" alt="header img"> </div>
   </div>
 </div>
 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#808080" 
+  fill-opacity="1" 
+  d="M0,224L40,208C80,192,160,160,240,154.7C320,149,400,171,480,160C560,149,640,107,720,117.3C800,128,880,192,960,197.3C1040,203,1120,149,1200,144C1280,139,1360,181,1400,202.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+
   </header>
+
+<Section class="company">
+  <div class="container text-center">
+    <div class="row g-5">
+      <div class="row"><img src="https://highlandcanine.com/wp-content/uploads/2021/01/siberian-husky-in-the-snow.jpg" width="20" alt="company logo" class="img-fluid"></div>
+    </div>
+  </div>
+</Section>
+
+<section class="features gradient">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6"><h1>Introducing the husky</h1>
+    <p class="my-4">
+      Siberian huskies are intelligent, active, and loyal 
+        companions. Although they can be challenging to train,
+         they require plenty of exercise. Because they are such 
+         strong animals, they should be trained early and carefully, 
+         and they may not respond well to harsh training methods. 
+         They are excellent guard dogs, but they are not good watchdogs.
+    </p>
+    </div>
+    <div class="col-md-6"></div>
+  </div>
+</div>
+
+</section>
 
 <link rel="stylesheet" href="css/styles.css" />
 
