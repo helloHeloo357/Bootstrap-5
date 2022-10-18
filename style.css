@@ -49,3 +49,11 @@ html,
     align-items: center;
     justify-content: center;
 }
+
+.gallery {
+    background-color: antiquewhite;
+}
+
+.gallery img {
+    border-radius: 8%;
+}
