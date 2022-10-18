@@ -18,3 +18,34 @@ html,
     font-size: 1.50rem;
     color:white;
 }
+
+
+.feature {
+    color:white
+}
+
+
+.feature ul {
+    padding-left:3rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    padding-left: 2rem;
+    background-image: url(https://www.freeiconspng.com/thumbs/check-tick-icon/black-check-tick-icon-4.png);
+    background-repeat: no-repeat;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.icon {
+    color:magenta;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.50rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
