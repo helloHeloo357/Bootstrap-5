@@ -57,3 +57,22 @@ html,
 .gallery img {
     border-radius: 8%;
 }
+
+
+.huskies {
+    color: red;
+}
+
+.footer {
+    color:bisque;
+    font: size 2.5rem;
+    margin:0;
+    padding: 1.25;
+    
+    
+}
+
+a {
+color:white;
+text-decoration: none;
+}
